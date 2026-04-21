@@ -383,16 +383,52 @@ img {
 .footer-area {
   background: #222831;
   color: white;
-  padding: 70px 0 25px;
+  padding: 75px 0 30px;
+  text-align: center;
 }
 
-.footer-area h4,
+.footer-area h4 {
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  font-family: "Dancing Script", cursive;
+}
+
 .footer-logo {
+  color: white;
+  font-size: 38px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 18px;
+}
+
+.footer-contact a {
+  display: block;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.footer-contact a:hover {
+  color: #ffbe33;
+}
+
+.footer-text {
+  max-width: 420px;
+  margin: 0 auto 20px;
+  line-height: 1.7;
+  font-size: 17px;
   color: white;
 }
 
-.footer-logo {
-  font-size: 38px;
+.opening-text {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  margin-top: 12px;
 }
 
 .social-icons a {
@@ -405,12 +441,15 @@ img {
   align-items: center;
   justify-content: center;
   margin: 0 4px;
+  font-size: 16px;
 }
 
 .copyright-text {
   margin-top: 45px;
+  color: white;
+  font-size: 17px;
+  line-height: 1.9;
 }
-
 @media (max-width: 991px) {
   .custom-nav {
     background: #222831;
