@@ -101,14 +101,18 @@ img {
   padding: 9px 20px;
 }
 
-.home-banner,
-.inner-banner {
+.home-banner
+{
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.18)),
     url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.inner-banner {
+  min-height: 50px;
+  background: #222831; 
 }
 
 .home-banner {
