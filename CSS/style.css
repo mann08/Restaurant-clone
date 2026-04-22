@@ -111,7 +111,7 @@ img {
   background-repeat: no-repeat;
 }
 .inner-banner {
-  min-height: 50px;
+  min-height: 100px;
   background: #222831; 
 }
 
@@ -368,9 +368,9 @@ img {
   border: 5px solid #ffbe33;
 }
 
-.inner-banner {
+/* .inner-banner {
   min-height: 330px;
-}
+} */
 
 .inner-banner-text {
   min-height: 330px;
